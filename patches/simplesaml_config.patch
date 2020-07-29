@@ -1,8 +1,8 @@
-diff --git a/vendor/simplesamlphp/simplesamlphp/config/acl.php b/vendor/simplesamlphp/simplesamlphp/config/acl.php
+diff --git a/config/acl.php b/config/acl.php
 new file mode 100644
 index 0000000..cb760d0
 --- /dev/null
-+++ b/vendor/simplesamlphp/simplesamlphp/config/acl.php
++++ b/config/acl.php
 @@ -0,0 +1,59 @@
 +<?php
 +
@@ -63,11 +63,11 @@ index 0000000..cb760d0
 +        ['allow'],
 +    ],
 +];
-diff --git a/vendor/simplesamlphp/simplesamlphp/config/authsources.php b/vendor/simplesamlphp/simplesamlphp/config/authsources.php
+diff --git a/config/authsources.php b/config/authsources.php
 new file mode 100644
 index 0000000..7b56d8c
 --- /dev/null
-+++ b/vendor/simplesamlphp/simplesamlphp/config/authsources.php
++++ b/config/authsources.php
 @@ -0,0 +1,360 @@
 +<?php
 +
@@ -429,11 +429,11 @@ index 0000000..7b56d8c
 +    ],
 +    */
 +];
-diff --git a/vendor/simplesamlphp/simplesamlphp/config/config.php b/vendor/simplesamlphp/simplesamlphp/config/config.php
+diff --git a/config/config.php b/config/config.php
 new file mode 100644
 index 0000000..49233d7
 --- /dev/null
-+++ b/vendor/simplesamlphp/simplesamlphp/config/config.php
++++ b/config/config.php
 @@ -0,0 +1,1209 @@
 +<?php
 +/*
@@ -1644,11 +1644,11 @@ index 0000000..49233d7
 +     */
 +    'store.redis.prefix' => 'SimpleSAMLphp',
 +];
-diff --git a/vendor/simplesamlphp/simplesamlphp/metadata/shib13-idp-remote.php b/vendor/simplesamlphp/simplesamlphp/metadata/shib13-idp-remote.php
+diff --git a/metadata/shib13-idp-remote.php b/metadata/shib13-idp-remote.php
 new file mode 100644
 index 0000000..df4e8e6
 --- /dev/null
-+++ b/vendor/simplesamlphp/simplesamlphp/metadata/shib13-idp-remote.php
++++ b/metadata/shib13-idp-remote.php
 @@ -0,0 +1,146 @@
 +<?php
 +
