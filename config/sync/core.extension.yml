@@ -57,8 +57,14 @@ module:
   islandora_text_extraction: 0
   islandora_text_extraction_defaults: 0
   islandora_video: 0
+  jsonapi: 0
+  jsonapi_defaults: 0
+  jsonapi_extras: 0
   jsonld: 0
   jwt: 0
+  jwt_auth_consumer: 0
+  jwt_auth_issuer: 0
+  jwt_path_auth: 0
   key: 0
   language: 0
   libraries: 0
@@ -103,6 +109,7 @@ module:
   transliterate_filenames: 0
   update: 0
   user: 0
+  users_jwt: 0
   views_ui: 0
   content_translation: 10
   externalauth: 10

@@ -122,5 +122,5 @@ default_options:
   tileSize: 256
 _core:
   default_config_hash: e3vGYyreIdWCpI2ILIqc_JoZuzRL3bl9zjZvnMeuy7I
-iiif_server: 'http://islandora.isle-dc.localhost/cantaloupe/iiif/2'
+iiif_server: 'https://islandora-idc.traefik.me/cantaloupe/iiif/2'
 manifest_view: iiif_manifest
